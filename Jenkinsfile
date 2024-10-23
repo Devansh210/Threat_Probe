@@ -24,7 +24,7 @@ pipeline {
             steps {
                 // Generate Trufflehog output
                 sh '''
-                trufflehog https://github.com/ajaym2812/threatprobe.git --json > trufflehog_output.json || true
+                trufflehog https://github.com/Devansh210/Threat_Probe.git --json > trufflehog_output.json || true
                 '''
                 // Upload Trufflehog results to Dojo (uncomment if needed)
                 sh '''
