@@ -67,7 +67,7 @@ pipeline {
             }
         }
 
-        // Uncomment if needed
+        // Uncomment if needed :
         // stage('Generate Build') {
         //     steps {
         //         sh 'mvn clean install -DskipTests'
